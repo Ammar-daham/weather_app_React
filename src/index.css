@@ -44,8 +44,8 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   color: #ffffff;
-  font-weight: 600;
-  padding: 5%;
+  font-weight: 500;
+  padding: 2%;
   font-size: 40px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 img {
-  width: 30%;
+  width: 15%;
 }
 
 
