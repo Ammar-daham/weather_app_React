@@ -9,7 +9,7 @@ const GetWeatherInfo = ({ weatherInfo }) => {
     const [data, setData] = useState();
 
     useEffect(() => {
-        axios.get(`http://dataservice.accuweather.com/currentconditions/v1/${weatherInfo.Key}?apikey=wI2R6wIUmly2XaU0Rg3eFuhypzZvSikZ`)
+        axios.get(`http://dataservice.accuweather.com/currentconditions/v1/${weatherInfo.Key}?apikey=wI2R6wIUmly2XaU0Rg3eFuhypzZvSikZ/`)
         .then((response) => {
             setData(response.data[0])
         })
