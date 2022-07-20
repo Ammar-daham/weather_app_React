@@ -1,3 +1,7 @@
+# Weather App 
+
+This app was generated with React with Accuweather api https://developer.accuweather.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
