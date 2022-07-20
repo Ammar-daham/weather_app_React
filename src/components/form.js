@@ -16,7 +16,11 @@ const FormComponent = () => {
     // City search from submit
     const fetchCity = (e) => {
         e.preventDefault(e)
-        axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=wI2R6wIUmly2XaU0Rg3eFuhypzZvSikZ&q=${citySearch}`)
+        axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=xb4ATyxDxMHAOAMUlcUCVFhz4hYuoS4l&q=${citySearch}`,{
+            headers: {
+               'Content-Type': 'application/json'
+            } 
+         })
         .then((response)=>{
             setCitySearch('');
             setWeatherInfo(response.data[0]);
